@@ -41,8 +41,6 @@ export default function Navbar(props) {
     <div class="btm-nav" id="navbar">
       <For each={navbarItems}>{(item) =>
         <>
-        {console.log(mergedProps.active)}
-        {console.log(item)}
           <Link class={mergedProps.active == item.id ? "active" : ""} href={item.href}>
             {item.insideElement()}
           </Link>

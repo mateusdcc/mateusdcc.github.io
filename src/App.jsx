@@ -10,7 +10,7 @@ function App() {
     < Router >
     <div>
       { /* Main content */ }
-      <main>
+      <main class="">
         < Routes />
       </main>
     </div>
