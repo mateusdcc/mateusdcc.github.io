@@ -19,7 +19,9 @@
   "dependencies": {
     "@solidjs/router": "^0.4.2",
     "autoprefixer": "^10.4.8",
+    "buffer": "^6.0.3",
     "daisyui": "^2.22.0",
+    "events": "^3.3.0",
     "gh-pages": "^4.0.0",
     "postcss": "^8.4.14",
     "solid-js": "^1.4.7",

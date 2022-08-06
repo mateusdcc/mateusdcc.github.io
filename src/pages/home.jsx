@@ -9,7 +9,10 @@ export default function Home() {
         <div class="max-w-md">
           <h1 class="text-5xl font-bold">Welcome to my website!</h1>
           <p class="py-6">A student, a learner, a self-taught developer.</p>
-          <Link class="btn btn-primary hover:-translate-y-1 hover:scale-110" href="/info">About</Link>
+          <div class="btn-group flex flex-center justify-center items-center">
+            <Link class="btn btn-outline rounded-none" href="/info" >About</Link>
+            <button class="btn btn-outline rounded-none" href="https://mateusdcc.vercel.app">Blog</button>
+          </div>
         </div>
       </div>
       <Navbar active="0"/>
