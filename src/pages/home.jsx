@@ -11,7 +11,7 @@ export default function Home() {
           <p class="py-6">A student, a learner, a self-taught developer.</p>
           <div class="btn-group flex flex-center justify-center items-center">
             <Link class="btn btn-outline rounded-none" href="/info" >About</Link>
-            <button class="btn btn-outline rounded-none" href="https://mateusdcc.vercel.app">Blog</button>
+            <a class="btn btn-outline rounded-none" href="https://mateusdcc.vercel.app">Blog</a>
           </div>
         </div>
       </div>
